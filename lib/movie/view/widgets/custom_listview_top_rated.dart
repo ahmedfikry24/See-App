@@ -19,7 +19,8 @@ class CustomListViewTopRated extends StatelessWidget {
               statusRequest: cubit.statusRequest,
               widget: Container(
                 height: 170,
-                margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 5),
+                margin:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   shrinkWrap: true,
